@@ -1,0 +1,41 @@
+{
+  "name": "pixelerate",
+  "version": "1.0.0",
+  "description": "Race against time to recreate pixel sprites!",
+  "scripts": {
+    "start": "webpack-dev-server --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniellealexis/pixelerate.git"
+  },
+  "keywords": [
+    "react",
+    "game"
+  ],
+  "author": "Danielle Lewandowski",
+  "license": " Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/daniellealexis/pixelerate/issues"
+  },
+  "homepage": "https://github.com/daniellealexis/pixelerate#readme",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "json-loader": "^0.5.4",
+    "style-loader": "^0.13.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^2.3.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
+  }
+}
