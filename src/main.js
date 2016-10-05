@@ -1,9 +1,17 @@
 import React from 'react';
 import {render} from 'react-dom';
 
-import PracticeComponent from './components/PracticeComponent';
+import Button from './components/Button/Button';
 
-import './styles/main.styl';
+import './styles/base.styl';
 
 
-render(<PracticeComponent text='Lookit this shit, rendering stuff'/>, document.getElementById('root'));
+render(
+	<Button label='Click Me'/>,
+	document.getElementById('root')
+);
+
+// render(
+// 	<AppMain/>,
+// 	document.getElementById('root')
+// );

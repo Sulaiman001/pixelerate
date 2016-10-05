@@ -1,0 +1,22 @@
+@require('../../styles/vars');
+
+.button
+	display inline-block
+	padding 0.85em 2em
+	margin 1rem
+	color #FFF
+	font-size 1rem
+	font-family $mainFont
+	letter-spacing 1px
+	background-color $primary
+	border-bottom 3px solid $primaryAccent
+	cursor pointer
+	-webkit-user-select none
+	user-select none
+	transition background-color 0.2s linear
+
+	&:hover
+		background-color lighten($primary, 15%)
+
+	&:active
+		background-color darken($primary, 20%)
